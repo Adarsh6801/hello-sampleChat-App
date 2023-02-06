@@ -1,0 +1,29 @@
+.chat-message-show-container{
+    background-color: #bbb8b8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow:auto ;
+}
+.chat-message-show-list{
+    list-style: style none;
+    margin: 0;
+    padding: 0;
+}
+.chat-message-create-container{
+    background: #616161;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    padding: 12px;
+    margin: 25px 0px;
+    flex: 2;
+}
+button{
+    height: 35px;
+    margin: auto 40px;
+    width: 50px;
+}
